@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "persona": "PhD Researcher in Computational Biology",
+    "job_to_be_done": "Prepare literature review on GNNs",
+    "timestamp": "Thu Jul 24 10:18:07 2025"
+  },
+  "sections": [
+    {
+      "document": "Jay_vashishtha_For_warshaw_.pdf",
+      "page": 1,
+      "section_title": "Jay Vardhan Vashishtha",
+      "content": "Jay Vardhan Vashishtha\n+91-9234312020 | jayvashishtha.agra@gmail.com | GitHub | LinkedIn\nEducation\nNational Institute of Technology Patna\n2022 \u2013 2026\nB.Tech in Computer Science and Engineering\nCGPA: 9.22/10.0\nShanti Niketan Public School, Agra\n2021 \u2013 2022\nCentral Board of Secondary Education (Intermediate)\nPercentage: 91.6%\nTechnical Skills\n\u2022 Programming Languages: Java, Go, C++, Python, JavaScript, Dart\n\u2022 Backend & Cloud: Node.js, Express.js, DynamoDB, MySQL, MongoDB, Firebase, AWS (Basics)\n\u2022 Distributed Systems: Kafka, SQS (Basics), Elasticache (Familiar)\n\u2022 Frameworks/Tools: React.js, Flutter, Git, GitHub, VS Code, Android Studio\n\u2022 Core CS Concepts: Data Structures & Algorithms, Operating Systems, Database Systems, OOP, Computer Net-\nworks\nExperience\nIntern - ADRDE, DRDO\nMay 2024 \u2013 Jul 2024\nAgra, India\n\u2022 Built an Online Requirement Portal using ReactJS, Firebase, and SQL, deployed on IIS Server.\n\u2022 Improved task management and request processing efficiency by 30%.\n\u2022 Collaborated using Git and industry-standard development practices.\nProjects\nMusicly - Full Stack Music Streaming Application\nDec 2023 \u2013 Jul 2024\nReact.js, Node.js, Express.js, MongoDB, Cloudinary\n\u2022 Developed RESTful APIs for music upload, playback, and playlist management.\n\u2022 Implemented secure user authentication using JWT and optimized storage with Cloudinary.\nBTech Vision - Student Community App\nMay 2023 \u2013 Mar 2024\nFlutter, Firebase\n\u2022 Implemented real-time chat, quizzes, task management, and course materials access.\n\u2022 Enhanced peer learning and collaboration among students by 60%.\nAchievements\n\u2022 Codeforces Expert, CodeChef 3-Star, LeetCode Knight.\n\u2022 Ranked 90/10,000+ in CodeChef Div 3; 201/20,000+ in Codeforces Div 2.\n\u2022 2nd place in NIT Patna Tech Fest ML Hackathon.\nPositions of Responsibility\n\u2022 IT Team Lead, ADRDE, DRDO (May 2024 \u2013 Jul 2024).\n\u2022 App Developer (Flutter), HackSlash, NIT Patna (Mar 2023 \u2013 Jul 2024).\n",
+      "importance_rank": 0.04489134208859452
+    },
+    {
+      "document": "ID_card.pdf",
+      "page": 1,
+      "section_title": "",
+      "content": "",
+      "importance_rank": 0.0
+    },
+    {
+      "document": "ID_card.pdf",
+      "page": 2,
+      "section_title": "",
+      "content": "",
+      "importance_rank": 0.0
+    }
+  ]
+}
