@@ -31,10 +31,9 @@ Challenge_1b/
 
 ## **Input Parameters (Inside Script)**
 The default persona and job are defined in `process_pdfs.py`:
-```python
+
 persona = "PhD Researcher in Computational Biology"
 job = "Prepare literature review on GNNs"
-```
 
 
 Usage
