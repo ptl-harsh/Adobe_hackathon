@@ -6,13 +6,14 @@ This project extracts the **title** and **headings** from PDF files based on fon
 
 ## **Folder Structure**
 
+```
 Challenge_1a/
 ├── input/               # Folder for input PDF files (to be mounted)
 ├── output/              # Folder where JSON outputs will be generated (to be mounted)
 ├── process_pdfs.py      # PDF processing script
 ├── Dockerfile           # Docker configuration
 └── README.md            # Project instructions
-
+```
 
 ---
 
@@ -31,13 +32,14 @@ Challenge_1a/
 ## **Usage**
 
 ### **1. Navigate to project**
-```bash
+
 cd challenge_1a
 
 2. Build Docker image
 
+```
 docker build -t challenge_1a-solution:latest .
-
+```
 3. Run container
 
 Mount your local folders so data persists:
@@ -55,18 +57,20 @@ For Windows
 docker run --rm -v "${pwd}\input:/app/input" -v "${pwd}\output:/app/output" challenge_1a-solution:latest     
 
 ```
-  	•	Place your PDF files inside the input/ folder before running.
-	•	JSON output files will be available in the output/ folder after processing.
+•	Place your PDF files inside the input/ folder before running.
+•	JSON output files will be available in the output/ folder after processing.
 
 
 # Add PDFs to input folder
 cp myfile.pdf input/
 
 # Run processing
+```
 docker run --rm \
   -v $(pwd)/input:/app/input \
   -v $(pwd)/output:/app/output \
   challenge_1a-solution:latest
+  ```
 
 # Check results
 cat output/myfile.json
