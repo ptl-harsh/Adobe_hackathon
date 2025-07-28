@@ -4,25 +4,27 @@ This repository contains solutions for two PDF processing challenges:
 - **Challenge 1b**: Extract text sections from PDFs, rank them by relevance to a given persona and job description using TF‑IDF and cosine similarity, and output the top results.
 ---
 ## **Repository Structure**
+```
 PDF-Processing-Challenges/
-├── Challenge_1a/                      # Challenge 1a - Extract title & headings
-│   ├── input/                         # Folder for input PDFs (mounted at runtime)
-│   ├── output/                        # Folder for generated JSON output (mounted at runtime)
-│   ├── process_pdfs.py                # PDF title & heading extraction script
-│   ├── Dockerfile                     # Dockerfile for Challenge 1a
-│   └── README.md                      # Challenge-specific instructions
+├── Challenge_1a/                  # Challenge 1a - Extract title & headings
+│   ├── input/                     # Input PDFs (mounted at runtime)
+│   ├── output/                    # Generated JSON output (mounted at runtime)
+│   ├── process_pdfs.py            # PDF title & heading extraction script
+│   ├── Dockerfile                 # Dockerfile for Challenge 1a
+│   └── README.md                  # Challenge-specific instructions
 │
-├── Challenge_1b/                      # Challenge 1b - Rank PDF sections by persona/job
-│   ├── input/                         # Folder for input PDFs (mounted at runtime)
-│   ├── output/                        # Folder for generated JSON output (mounted at runtime)
-│   ├── process_pdfs.py                # PDF section ranking script (TF-IDF + cosine similarity)
-│   ├── Dockerfile                     # Dockerfile for Challenge 1b
-│   └── README.md                      # Challenge-specific instructions
+├── Challenge_1b/                  # Challenge 1b - Rank PDF sections by persona/job
+│   ├── input/                     # Input PDFs (mounted at runtime)
+│   ├── output/                    # Generated JSON output (mounted at runtime)
+│   ├── process_pdfs.py            # PDF section ranking script (TF-IDF + cosine similarity)
+│   ├── Dockerfile                 # Dockerfile for Challenge 1b
+│   └── README.md                  # Challenge-specific instructions
 │
-├── .gitignore                         # Ignore Python cache, build artifacts, etc.
-├── LICENSE                            # Optional license (MIT, Apache, etc.)
-├── README.md                          # **Universal readme for both projects (main readme)**
-└── requirements.txt                   # (Optional) Combined dependencies for local use
+├── .gitignore                     # Ignore Python cache, build artifacts, etc.
+├── LICENSE                        # Optional license (MIT, Apache, etc.)
+├── README.md                      # Universal README for both projects (main readme)
+└── requirements.txt               # (Optional) Combined dependencies for local use
+```
 ---
 ## **Technologies Used**
 - **Python 3.9+**
