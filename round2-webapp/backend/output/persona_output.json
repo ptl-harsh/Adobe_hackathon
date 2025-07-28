@@ -2,29 +2,78 @@
   "metadata": {
     "persona": "PhD Researcher in Computational Biology",
     "job_to_be_done": "Prepare literature review on GNNs",
-    "timestamp": "Thu Jul 24 10:18:07 2025"
+    "timestamp": "Mon Jul 28 12:19:40 2025"
   },
   "sections": [
     {
-      "document": "Jay_vashishtha_For_warshaw_.pdf",
-      "page": 1,
-      "section_title": "Jay Vardhan Vashishtha",
-      "content": "Jay Vardhan Vashishtha\n+91-9234312020 | jayvashishtha.agra@gmail.com | GitHub | LinkedIn\nEducation\nNational Institute of Technology Patna\n2022 \u2013 2026\nB.Tech in Computer Science and Engineering\nCGPA: 9.22/10.0\nShanti Niketan Public School, Agra\n2021 \u2013 2022\nCentral Board of Secondary Education (Intermediate)\nPercentage: 91.6%\nTechnical Skills\n\u2022 Programming Languages: Java, Go, C++, Python, JavaScript, Dart\n\u2022 Backend & Cloud: Node.js, Express.js, DynamoDB, MySQL, MongoDB, Firebase, AWS (Basics)\n\u2022 Distributed Systems: Kafka, SQS (Basics), Elasticache (Familiar)\n\u2022 Frameworks/Tools: React.js, Flutter, Git, GitHub, VS Code, Android Studio\n\u2022 Core CS Concepts: Data Structures & Algorithms, Operating Systems, Database Systems, OOP, Computer Net-\nworks\nExperience\nIntern - ADRDE, DRDO\nMay 2024 \u2013 Jul 2024\nAgra, India\n\u2022 Built an Online Requirement Portal using ReactJS, Firebase, and SQL, deployed on IIS Server.\n\u2022 Improved task management and request processing efficiency by 30%.\n\u2022 Collaborated using Git and industry-standard development practices.\nProjects\nMusicly - Full Stack Music Streaming Application\nDec 2023 \u2013 Jul 2024\nReact.js, Node.js, Express.js, MongoDB, Cloudinary\n\u2022 Developed RESTful APIs for music upload, playback, and playlist management.\n\u2022 Implemented secure user authentication using JWT and optimized storage with Cloudinary.\nBTech Vision - Student Community App\nMay 2023 \u2013 Mar 2024\nFlutter, Firebase\n\u2022 Implemented real-time chat, quizzes, task management, and course materials access.\n\u2022 Enhanced peer learning and collaboration among students by 60%.\nAchievements\n\u2022 Codeforces Expert, CodeChef 3-Star, LeetCode Knight.\n\u2022 Ranked 90/10,000+ in CodeChef Div 3; 201/20,000+ in Codeforces Div 2.\n\u2022 2nd place in NIT Patna Tech Fest ML Hackathon.\nPositions of Responsibility\n\u2022 IT Team Lead, ADRDE, DRDO (May 2024 \u2013 Jul 2024).\n\u2022 App Developer (Flutter), HackSlash, NIT Patna (Mar 2023 \u2013 Jul 2024).\n",
-      "importance_rank": 0.04489134208859452
+      "document": "adobe_problem.pdf",
+      "page": 7,
+      "section_title": "Round 1B: Persona-Driven Document Intelligence  ",
+      "content": "Round 1B: Persona-Driven Document Intelligence  \nTheme: “Connect What Matters — For the User Who Matters”  \nChallenge Brief (For Participants)  \nYou will build a system that acts as an intelligent document analyst, extracting \nand prioritizing the most relevant sections from a collection of documents based \non a specific persona and their job-to-be-done.  \nInput Specification  \n2. Document Collection: 3-10 related PDFs Persona Definition: Role \ndescription with specific expertise and focus areas  \n3. Job-to-be-Done: Concrete task the persona needs to accomplish  \nDocument collection, persona and job-to-be-done can be very diverse. So, the \nsolution that teams need to build needs to be generic to generalize to this \nvariety.   \n• Documents can be from any domain (Example: Research papers, \nschool/college books, financial reports, news articles etc.)  \n• Persona can again be very diverse (Example: Researcher, Student, \nSalesperson, Journalist, Entrepreneur etc)  \n• Job-to-be-done: This will be related to the persona (Example: \nProvide a literature review for a given topic and available research \npapers, What should I study for Organic Chemistry given the \nchemistry documents, Summarize the financials of corporation xyz \ngiven the detailed year end financial reports etc.)  \nSample Test Cases  \nTest Case 1: Academic Research  \n• Documents: 4 research papers on \"Graph Neural Networks for \nDrug Discovery\"  \n• Persona: PhD Researcher in Computational Biology  \n• Job: \"Prepare a comprehensive literature review focusing on \nmethodologies, datasets, and performance benchmarks\"",
+      "importance_rank": 0.1725511312913771
     },
     {
-      "document": "ID_card.pdf",
-      "page": 1,
-      "section_title": "",
-      "content": "",
-      "importance_rank": 0.0
+      "document": "adobe_problem.pdf",
+      "page": 5,
+      "section_title": "Model size  ≤ 200MB (if used)  ",
+      "content": "Model size  ≤ 200MB (if used)  \nNetwork  \nNo internet access \nallowed  \nRuntime  \nMust run on CPU (amd64), \nyour solution should run on \nthe system with 8 CPUs and \n16 GB RAM configurations   \n  \nScoring Criteria  \nCriteria  \nMax \nPoints  \nHeading Detection Accuracy (Precision + \nRecall)  \n25  \nPerformance (Time & Size Compliance)  \n10  \nBonus: Multilingual Handling (e.g., \nJapanese)  \n10  \nTotal  \n45  \n  \nSubmission Checklist  \n1. Git Project with a working Dockerfile in the root director and   \n2. A working Dockerfile  \n3. All dependencies installed within the container  \n4. A README.md that explains:  \no Your approach  \no Any models or libraries used  \no How to build and run your solution (This is purely for \ndocumentation purpose, your solution should run using the \n“Expected Execution” section above.  \nPro Tips  \n• Don’t rely solely on font sizes for heading level determination — \nheadings in some PDFs break that assumption.  \n• Test your solution across both simple and complex PDFs.  \n• Make your code modular — you’ll reuse this structure in Round \n1B.",
+      "importance_rank": 0.07096315161791446
     },
     {
-      "document": "ID_card.pdf",
+      "document": "adobe_problem.pdf",
+      "page": 4,
+      "section_title": "3. Sample Dockerfile  ",
+      "content": "3. Sample Dockerfile  \n4. Sample Solution \n Docker Requirements  \n•  \n• Please ensure your Dockerfile is compatible with AMD64 \narchitecture. Since we will build and run the image on an AMD64 \nmachine, your base image and any dependencies should support \nlinux/amd64. Optionally, you can include the following in your \nDockerfile to explicitly specify the platform: FROM --\nplatform=linux/amd64 <base_image>  \n• CPU architecture: amd64 (x86_64)  \n• No GPU dependencies  \n• Model size (if used) ≤ 200MB  \n• Should work offline — no network/internet calls  \nExpected Execution  \nWe will build the docker image using the following command: \n```docker build --platform linux/amd64 -t \nmysolutionname:somerandomidentifier``` \n After building the image, we will run the solution using the run command \nspecified in the submitted instructions. \n```docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output --\nnetwork none mysolutionname:somerandomidentifier```  \nYour container should:  \n• Automatically process all PDFs from /app/input directory, \ngenerating a corresponding filename.json in /app/output for each \nfilename.pdf  \n• output.json  \n Constraints  \nConstraint  \nRequirement  \nExecution \ntime  \n≤ 10 seconds for a 50-page \nPDF",
+      "importance_rank": 0.03346893388574569
+    },
+    {
+      "document": "adobe_problem.pdf",
+      "page": 8,
+      "section_title": "Test Case 2: Business Analysis  ",
+      "content": "Test Case 2: Business Analysis  \n• Documents: 3 annual reports from competing tech companies \n(2022-2024)  \n• Persona: Investment Analyst  \n• Job: \"Analyze revenue trends, R&D investments, and market \npositioning strategies\"  \nTest Case 3: Educational Content  \n• Documents: 5 chapters from organic chemistry textbooks  \n• Persona: Undergraduate Chemistry Student  \n• Job: \"Identify key concepts and mechanisms for exam preparation \non reaction kinetics\"  \nRequired Output  \n• Output JSON format: Refer challenge1b_output.json  \nThe output should contain:  \n1. Metadata:  \na. Input documents  \nb. Persona  \nc. Job to be done  \nd. Processing timestamp  \n2. Extracted Section:  \na. Document  \nb. Page number  \nc. Section title  \nd. Importance_rank  \n3. Sub-section Analysis:  \na. Document \nb.  \nc. Refined Text \nd. Page Number Constraints  \n• Must run on CPU only  \n• Model size ≤ 1GB  \n• Processing time ≤ 60 seconds for document collection (3-5 \ndocuments)  \n• No internet access allowed during execution",
+      "importance_rank": 0.03158684846895104
+    },
+    {
+      "document": "adobe_problem.pdf",
       "page": 2,
-      "section_title": "",
-      "content": "",
-      "importance_rank": 0.0
+      "section_title": "Welcome to the “Connecting the Dots” Challenge  ",
+      "content": "Welcome to the “Connecting the Dots” Challenge  \n \nRethink Reading. Rediscover Knowledge  \nWhat if every time you opened a PDF, it didn’t just sit there—it spoke to you, \nconnected ideas, and narrated meaning across your entire library?  \nThat’s the future we’re building — and we want you to help shape it.  \nIn the Connecting the Dots Challenge, your mission is to reimagine the humble \nPDF as an intelligent, interactive experience—one that understands structure, \nsurfaces insights, and responds to you like a trusted research companion.  \nThe Journey Ahead \n  \n• Round 1:  \nKick things off by building the brains — extract structured outlines from \nraw PDFs with blazing speed and pinpoint accuracy. Then, power it up \nwith on-device intelligence that understands sections and links related \nideas together.  \n• Round 2:  \nIt’s showtime! Build a beautiful, intuitive reading webapp using Adobe’s \nPDF Embed API. You will be using your Round 1 work to design a \nfuturistic webapp. \nWhy This Matters  \nIn a world flooded with documents, what wins is not more content — it’s \ncontext. You’re not just building tools — you’re building the future of how we \nread, learn, and connect. No matter your background — ML hacker, UI builder, \nor insight whisperer — this is your stage.  \nAre you in?  \nIt’s time to read between the lines. Connect the dots. And build a PDF \nexperience that feels like magic. Let’s go.",
+      "importance_rank": 0.028872378947404298
+    },
+    {
+      "document": "adobe_problem.pdf",
+      "page": 3,
+      "section_title": "Round 1A: Understand Your Document  ",
+      "content": "Round 1A: Understand Your Document  \n Challenge Theme: Connecting the Dots Through Docs  \n Your Mission  \nYou're handed a PDF — but instead of simply reading it, you're tasked with \nmaking sense of it like a machine would. Your job is to extract a structured \noutline of the document — essentially the Title, and headings like H1, H2, and \nH3 — in a clean, hierarchical format.  \nThis outline will be the foundation for the rest of your hackathon journey.  \n Why This Matters  \nPDFs are everywhere — but machines don’t naturally understand their \nstructure. By building an outline extractor, you’re enabling smarter document \nexperiences, like semantic search, recommendation systems, and insight \ngeneration.  \n What You Need to Build  \nYou must build a solution that:  \n• Accepts a PDF file (up to 50 pages)  \n• Extracts:  \no Title  \no Headings: H1, H2, H3 (with level and page number)  \n• Outputs a valid JSON file in the format below:  \n{  \n  \"title\": \"Understanding AI\",  \n  \"outline\": [  \n    { \"level\": \"H1\", \"text\": \"Introduction\", \"page\": 1 },  \n    { \"level\": \"H2\", \"text\": \"What is AI?\", \"page\": 2 },  \n    { \"level\": \"H3\", \"text\": \"History of AI\", \"page\": 3 }  \n  ]  \n}  \n You Will Be Provided  \n1. A sample input PDF (e.g., sample.pdf)  \n2. A sample ground truth output (sample.json) for format clarity",
+      "importance_rank": 0.015127176219391426
+    },
+    {
+      "document": "UGPG_Print_Registration_Form.pdf",
+      "page": 2,
+      "section_title": "Registration Form",
+      "content": "Registration Form\nDEPARTMENT COPY\nPrint Date : 18-07-2025\nStudent Details\nName :\nJAY VARDHAN VASHISHTHA\nRoll No. :\n2206252\nEnrolment No. :\n221354\nBranch :\nB.Tech-CSE\nSpecialization :\nNA\nExam Session :\nJUL-DEC_2025\nFee Details\nFee Amount :\n54933\nPayment ID :\n1689081350635\nPayment Date :\n18-07-2025\nRegular Course Details\nSl No.\nCourse Code\nTitle\nL\nT\nP\nCredit\nPaper Type\nSemester\nExam Type\n1\ncs74135\nApplied Cryptography\n3\n0\n2\n4\nTheory + Practical\nsem 7\nR\n2\ncs74144\nOptimization Techniques\n3\n0\n0\n3\nTheory\nsem 7\nR\n3\nCS74125\nIndustrial Training\n0\n0\n4\n2\nPractical\nsem 7\nR\n4\nCS74124\nResearch Project-I\n0\n0\n8\n4\nPractical\nsem 7\nR\n------------------------------------\nStudent Signature\n----------------------------------------------\nDepartment/Faculty Advisor\n------------------------------------\nHOD\n7/18/25, 2:52 PM\nUGPG Print Registration Form\nhttps://mis.nitp.ac.in/Print/UGPGPrintRegistrationForm.aspx\n2/3",
+      "importance_rank": 0.012475054003206911
+    },
+    {
+      "document": "UGPG_Print_Registration_Form.pdf",
+      "page": 3,
+      "section_title": "Registration Form",
+      "content": "Registration Form\nHOD COPY\nPrint Date : 18-07-2025\nStudent Details\nName :\nJAY VARDHAN VASHISHTHA\nRoll No. :\n2206252\nEnrolment No. :\n221354\nBranch :\nB.Tech-CSE\nSpecialization :\nNA\nExam Session :\nJUL-DEC_2025\nFee Details\nFee Amount :\n54933\nPayment ID :\n1689081350635\nPayment Date :\n18-07-2025\nRegular Course Details\nSl No.\nCourse Code\nTitle\nL\nT\nP\nCredit\nPaper Type\nSemester\nExam Type\n1\ncs74135\nApplied Cryptography\n3\n0\n2\n4\nTheory + Practical\nsem 7\nR\n2\ncs74144\nOptimization Techniques\n3\n0\n0\n3\nTheory\nsem 7\nR\n3\nCS74125\nIndustrial Training\n0\n0\n4\n2\nPractical\nsem 7\nR\n4\nCS74124\nResearch Project-I\n0\n0\n8\n4\nPractical\nsem 7\nR\n------------------------------------\nStudent Signature\n----------------------------------------------\nDepartment/Faculty Advisor\n------------------------------------\nHOD\n7/18/25, 2:52 PM\nUGPG Print Registration Form\nhttps://mis.nitp.ac.in/Print/UGPGPrintRegistrationForm.aspx\n3/3",
+      "importance_rank": 0.012475054003206911
+    },
+    {
+      "document": "UGPG_Print_Registration_Form.pdf",
+      "page": 1,
+      "section_title": "Registration Form",
+      "content": "Registration Form\nSTUDENT COPY\nPrint Date : 18-07-2025\nStudent Details\nName :\nJAY VARDHAN VASHISHTHA\nRoll No. :\n2206252\nEnrolment No. :\n221354\nBranch :\nB.Tech-CSE\nSpecialization :\nNA\nExam Session :\nJUL-DEC_2025\nFee Details\nFee Amount :\n54933\nPayment ID :\n1689081350635\nPayment Date :\n18-07-2025\nRegular Course Details\nSl No.\nCourse Code\nTitle\nL\nT\nP\nCredit\nPaper Type\nSemester\nExam Type\n1\ncs74135\nApplied Cryptography\n3\n0\n2\n4\nTheory + Practical\nsem 7\nR\n2\ncs74144\nOptimization Techniques\n3\n0\n0\n3\nTheory\nsem 7\nR\n3\nCS74125\nIndustrial Training\n0\n0\n4\n2\nPractical\nsem 7\nR\n4\nCS74124\nResearch Project-I\n0\n0\n8\n4\nPractical\nsem 7\nR\n------------------------------------\nStudent Signature\n----------------------------------------------\nDepartment/Faculty Advisor\n------------------------------------\nHOD\n7/18/25, 2:52 PM\nUGPG Print Registration Form\nhttps://mis.nitp.ac.in/Print/UGPGPrintRegistrationForm.aspx\n1/3",
+      "importance_rank": 0.012438630340080784
+    },
+    {
+      "document": "kssmaa-ke-caar-crnn-viliym-phrgs-maarttin.pdf",
+      "page": 4,
+      "section_title": "लेखक के बारे मɅ",
+      "content": "लेखक के बारे मɅ\nͪवͧलयम फग[स माǑट[न एक èवÍछंद लेखक, वÈता एवं काय[शाला अͬधनायक हɇ, जो लोगɉ को सशÈत\nबनाने मɅ उनकȧ सहायता करते हɇ। वो èकॉǑटश हɇ और उÛहɉने एक जापानी मǑहला से शादȣ कȧ है। \n    उÛहɉने बहुत सी याğाएँ कȧ हɇ और उनका लेखन उन सामाÛय चुनौǓतयɉ कȧ समी¢ा से Ĥभाͪवत है िजसका\nसामना लोग दुǓनया के हर èथान पर करते हɇ। \n   ͪवͧलयम ͪवशेष Ǿप से ¢मा के ͪवषय पर èपçट लेख ͧलखकर, उसके बारे मɅ åयाÉयान एवं काय[शालायɅ\nकरते हुए ĤसÛन हɇ। वो लेखन एवं कंÜयूटर ¢ेğ मɅ Ĥͧश¢ण से ĤाÜत अपने पूव[ अनुभवɉ को लोगɉ को ¢मा\nकरना ͧसखाने मɅ Ĥयोग करना पसंद करते हɇ। उनके Ĥकाशक: फȧंडहोन[ Ĥेस, findhornpress.com के माÚयम\nसे उनसे संपक[  करɅ। \nअÛय रचनायɅ:\nForgiveness is Power, फȧंडहोन[ Ĥेस। \nISBN: 978-1-84409-628-2\nForgiveness is Power के ͧलए सराहना: \n\"ͪवͧलयम माǑट[न ने ¢मा के बारे मɅ एक £ानवध[क उपयोगकता[ संदͧश[का का Ǔनमा[ण ͩकया है। िजसमɅ ¢मा\nके ͪवषय मɅ बहुत अÍछȤ तरह से अÛवेषण ͩकया गया है। यह अ×यͬधक ͪवचारशील तथा åयावहाǐरक है। मɇ\nपूरे Ǒदल से इसकȧ अनुशंसा करता हूँ।” \nरॉबट[ हॉãडेन, Shift Happens! और Loveability के लेखक  \n\"ͪवèतृत एवं Ĥासंͬगक जानकारȣ से भरपूर सोने का भंडार।\" \nͪवͧलयम Þलूम, The Endorphin Effect के लेखक  \n\"ͪवͧलयम माǑट[न ने ना केवल अपने भाई बहनɉ को बिãक èवयं को भी ¢मा करना ͧसखाने के ͧलए एक\nĤभावशालȣ माग[दश[क पुèतक ͧलखी है।\" \nजॉन मनी, पीएच. डी., Living A Course in Miracles के लेखक \nअनुवाद िèथǓत \n¢मा करɅ, मेरȣ पुèतक Forgiveness is Power अभी आपकȧ भाषा मɅ उपलÞध नहȣं है। यह कब तक उपलÞध\nहो सकती है इसके बारɅ मɅ अÙयतन ĤाÜत करने के ͧलए, कृपया मेरȣ वेबसाइट http:// forgiveness-is-\npower.com पर जाएं।",
+      "importance_rank": 0.009433653854754764
     }
   ]
 }

@@ -35,15 +35,15 @@ adobe-solution/
 ```bash
 cd round1a
 docker build -t round1a-solution:latest .
-# To run:
-# docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output round1a-solution:latest
+To run:
+docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output round1a-solution:latest
 
 2. Build Round 1B Docker Image
 
 cd ../round1b
 docker build -t round1b-solution:latest .
 # To run:
-# docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output round1b-solution:latest
+docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output round1b-solution:latest
 
 3. Run the Web App (Frontend + Backend)
 
