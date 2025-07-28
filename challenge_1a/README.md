@@ -42,12 +42,19 @@ docker build -t challenge_1a-solution:latest .
 
 Mount your local folders so data persists:
 
+For MACOS/Linux
+```
 docker run --rm \
   -v $(pwd)/input:/app/input \
   -v $(pwd)/output:/app/output \
   challenge_1a-solution:latest
+```
 
+For Windows
+```
+docker run --rm -v "${pwd}\input:/app/input" -v "${pwd}\output:/app/output" challenge_1a-solution:latest     
 
+```
   	•	Place your PDF files inside the input/ folder before running.
 	•	JSON output files will be available in the output/ folder after processing.
 
