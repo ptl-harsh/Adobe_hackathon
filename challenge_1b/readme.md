@@ -70,8 +70,8 @@ For Windows
 docker run --rm -v "${pwd}\input:/app/input" -v "${pwd}\output:/app/output" challenge_1a-solution:latest     
 ```
 
-  	•	Place your PDF files inside the input/ folder before running.
-	•	Output JSON will be saved as output/persona_output.json.
+•	Place your PDF files inside the input/ folder before running.
+•	Output JSON will be saved as output/persona_output.json.
 
    # Copy your PDFs into input folder
 cp sample.pdf input/
