@@ -76,10 +76,12 @@ docker run --rm -v "${pwd}\input:/app/input" -v "${pwd}\output:/app/output" chal
 cp sample.pdf input/
 
 # Run processing
+```
 docker run --rm \
   -v $(pwd)/input:/app/input \
   -v $(pwd)/output:/app/output \
   challenge_1b-solution:latest
+```
 
 # View results
 cat output/persona_output.json
