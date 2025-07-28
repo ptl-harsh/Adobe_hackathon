@@ -9,12 +9,14 @@ This project processes PDFs to:
 
 ## **Folder Structure**
 
+```
 Challenge_1b/
 ├── input/                    # Folder for input PDFs (to be mounted)
 ├── output/                   # Folder where JSON outputs will be generated (to be mounted)
 ├── process_pdfs.py           # PDF processing & ranking script
 ├── Dockerfile                # Docker configuration
 └── README.md                 # Project instructions
+```
 
 ---
 
