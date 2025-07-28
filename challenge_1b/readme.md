@@ -32,20 +32,22 @@ The default persona and job are defined in `process_pdfs.py`:
 ```python
 persona = "PhD Researcher in Computational Biology"
 job = "Prepare literature review on GNNs"
-
+```
 
 
 Usage
 
 1. Navigate to Project
-
+```
 cd challenge_1b
-
+```
 
 2. Build Docker Image
 
+```
 docker build -t challenge_1b-solution:latest .
 
+```
 
 3. Run Container
 
