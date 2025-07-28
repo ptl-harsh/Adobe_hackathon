@@ -13,7 +13,7 @@ function PDFViewerPage() {
     if (!window.AdobeDC) return;
     document.getElementById("adobe-dc-view").innerHTML = "";
     const adobeDCView = new window.AdobeDC.View({
-      clientId: "46221bf361444756b3ecab698a17210c", // Replace with your real key
+      clientId: "34a2f22bb83b44b09939e4a3fd406fbc", // Replace with your real key
       divId: "adobe-dc-view",
     });
     adobeDCView.previewFile(
